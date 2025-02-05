@@ -1,0 +1,98 @@
+.controls {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    height: 99vh;
+    overflow: auto;
+}
+
+.label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+}
+
+.label span {
+    font-weight: normal;
+    color: #666;
+}
+
+.input,
+.select {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: border 0.3s ease-in-out;
+}
+
+.input:focus,
+.select:focus {
+    border-color: #007bff;
+}
+
+.colorPicker {
+    height: 35px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.colorPicker:hover {
+    transform: scale(1.05);
+}
+
+.buttonGroup {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.UndoRedoBtn{
+    flex: 1;
+}
+
+.button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #007bff;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out, transform 0.2s;
+}
+
+.button:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
+
+.button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.resetButton {
+    background: #ff4d4d;
+}
+
+.resetButton:hover {
+    background: #cc0000;
+}
+
+.hr{
+    width: 100%;
+
+}
