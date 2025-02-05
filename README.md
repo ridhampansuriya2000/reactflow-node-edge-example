@@ -44,7 +44,7 @@ Ensure you have the following installed on your system:
    # or
    yarn preview
    
-  **📂 Project Structure**
+**📂 Project Structure**
    ```sh
    reactflow-example/
    ├── public/              # Static assets (favicon, index.html, etc.)
@@ -58,3 +58,28 @@ Ensure you have the following installed on your system:
    ├── .gitignore           # Git ignored files
    ├── package.json         # Project metadata and dependencies
    ├── vite.config.js       # Vite configuration
+```
+
+## 🛠️ Built With
+
+- [React.js](https://reactjs.org/) - Frontend JavaScript library
+- [ReactFlow](https://reactflow.dev/) -A library for building interactive node-based editors and diagrams.
+- [Redux Toolkit](https://redux-toolkit.js.org/) -The official, opinionated, batteries-included toolset for efficient Redux development.
+- [Vite](https://redux-toolkit.js.org/) -A fast build tool for modern web applications.
+- [TypeScript](https://www.typescriptlang.org/) -A typed superset of JavaScript.
+
+## 🌐 Live Demo
+
+Check out the live application: [ReactFlow-nodes-edge on Vercel](https://reactflow-node-edge-example.vercel.app/)
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+## 🙌 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
+
+## 📞 Contact
+
+For any questions or support, please reach out to ridhampansuriya10@gmail.com or https://github.com/ridhampansuriya2000.
