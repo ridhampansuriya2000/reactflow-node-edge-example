@@ -12,7 +12,6 @@
     "allowSyntheticDefaultImports": true,
     "moduleResolution": "node",
     "skipLibCheck": true,
-    "include": ["src", "src/global.d.ts"]
   },
-  "include": ["./**/*.d.ts", "./**/*.{js,jsx,ts,tsx}"]
+  "include": ["./**/*.d.ts", "./**/*.{js,jsx,ts,tsx}", "src/**/*"]
 }

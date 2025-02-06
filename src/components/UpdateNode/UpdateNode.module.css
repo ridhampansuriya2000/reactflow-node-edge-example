@@ -96,3 +96,18 @@
     width: 100%;
 
 }
+
+.customScrollbar::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.customScrollbar::-webkit-scrollbar-thumb {
+    background-color: #d1d5db;
+    border-radius: 8px;
+}
+
+.customScrollbar::-webkit-scrollbar-track {
+    background-color: #f3f4f6;
+    border-radius: 8px;
+}

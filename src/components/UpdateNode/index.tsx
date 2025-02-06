@@ -10,7 +10,6 @@ import { setNodes as setNodesAction } from "../../store/slices/nodesSlice";
 import { setHistory as setHistoryAction } from "../../store/slices/historySlice";
 import {RootState} from "../../store/store";
 import {resetState, setResetFlag} from "../../store/actions";
-// @ts-ignore
 import styles from './UpdateNode.module.css';
 
 function debounce(func, delay) {
@@ -323,7 +322,7 @@ const UpdateNode = () => {
                     : edge
             );
             setEdges(cloneDeep(newEdges));
-            debouncedSaveHistory(nodes, 'edge');
+            debouncedSaveHistory(newEdges, 'edge');
         }
     };
 
@@ -342,7 +341,7 @@ const UpdateNode = () => {
                     : edge
             );
             setEdges(cloneDeep(newEdges));
-            debouncedSaveHistory(nodes, 'edge');
+            debouncedSaveHistory(newEdges, 'edge');
         }
     };
 
@@ -424,7 +423,7 @@ const UpdateNode = () => {
             onNodeDragStop={onNodeDragStop}
         >
             <div className="update-node__controls">
-                <div className={styles.controls}>
+                <div className={`${styles.controls} ${styles.customScrollbar}`}>
 
                     <button
                         onClick={handleReset}
